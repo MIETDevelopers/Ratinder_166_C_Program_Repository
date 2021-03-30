@@ -1,9 +1,7 @@
-#include<stdio.h> //Including standard input ouput header files from library.
-struct s {
-	char text[50];
-	};
-int main(){
-	struct s a[10];	
-	printf("Hello Buddy!!");//Here we entered the texted to be printed.
-	return 's';
+#include<stdio.h> 
+int main (){
+
+	int arr[5]={5,4,3,2,1};
+	printf("%d",*(arr+2));
+	return 0;
 }
